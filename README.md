@@ -57,3 +57,38 @@ PED pedido + FM Floramundi + Sede + Fecha + nºCliente + nºpedido
 
 PEDFM_NL_05052026_15763_12.PDF
 
+FLUJO DE TRABAJO
+- Issue para pedir documento o modificacion --> tecnico
+- Crea una rama para el documento segun tipo --> nuevas-rosas
+- Edita el documento por parte del semillero
+- Abre un pull Request (peticion de aprobacion)
+- El verificador/responsable aprueba y hace MERGE
+- Le coloca la etiqueta de PUBLICADO y lo coloca en la carpeta DOCUMENTOS_PUBLICOS o la WEB... (ejemplo)
+
+Estado inicial del documento
+que actor tiene que hacer
+qué tiene que hacer (tarea, condiciones, plazo)
+y cuál sería el estado siguiente
+
+Contrato 
+--- Borrador Tecnico de RRHH -- Redactarlo -- 
+EnRevision -- Responsable RRHH - Revisar y validar --Aprobado
+Aprobado --CEO --Firmar y sellar -- Publico
+
+Estados del Documento =  CICLO DE VIDA DEL DOCUMENTO
+BORRADOR
+ENREVISION
+APROBADO
+PUBLICO
+ARCHIVADO
+ELIMINADO (no llegaria a ponerse)
+
+
+                   DIRECTOR         RESPONSABLE_AREA          EDITOR            EXTERNO
+
+PEDIDO                VER                VER/EDITAR            CREAR              NADA
+
+GUIA_TECNICA          VER                   VER             CREAR/EDITAR          VER
+
+CONTRATO_LABORAL     EDITAR                 VER                 NO                 NO
+                    (Aprobar)
